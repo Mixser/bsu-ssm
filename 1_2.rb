@@ -7,7 +7,7 @@ def mkm(a0, b = a0, n = N)
   (1..n).each { |i| a[i] = (b * a[i-1]).modulo(M) }
   a[1..n].map { |a| a / M.to_f }
 end
-
+# TODO: @mixser plese do this
 p a = mkm(7 **  6)
 # p a = mkm(5 ** 7, 5 ** 5, N)
 
