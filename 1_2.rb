@@ -8,6 +8,7 @@ def mkm(a0, b = a0, n = N)
   a[1..n].map { |a| a / M.to_f }
 end
 # TODO: @mixser plese do this
+# TODO: gelp asd as
 p a = mkm(7 **  6)
 # p a = mkm(5 ** 7, 5 ** 5, N)
 
